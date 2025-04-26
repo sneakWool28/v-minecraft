@@ -1,0 +1,40 @@
+@font-face {
+  font-family: minecraft;
+  src: url(MinecraftTen-VGORe.ttf);
+}
+
+body {
+  background-color: #4a6f28;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgb(52, 47, 47);
+}
+
+.navbar ol {
+  margin: 0;
+  list-style-type: none;
+  padding: 25px;
+}
+
+.hero {
+  margin: none;
+  background-image: url("https://www.minecraft.net/content/dam/minecraftnet/community/events/cy2025/sandstorm/Wallpapers_Carousel_MCM-Bees_1110x624.jpg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.hero-title {
+  font-family: minecraft;
+  margin: 0;
+  font-size: 70px;
+}
