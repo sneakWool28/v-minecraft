@@ -38,3 +38,9 @@ body {
   margin: 0;
   font-size: 70px;
 }
+.about {
+  font-family: minecraft;
+  margin: 0;
+  font-size: 70px;
+  align-items: center;
+}
